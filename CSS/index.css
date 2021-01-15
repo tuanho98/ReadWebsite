@@ -148,15 +148,41 @@ background-color: #476af5;
 .number__item p{
     margin-bottom: 30px;
     font-size: 2rem;
-    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
-    -webkit-background-clip: text;
-    background-clip: inherit;
-    -webkit-text-fill-color: transparent;
+    color:  #f28acc;
 }
 .number__item h4{
     font-size: 2rem;
     background-clip: inherit;
-    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    letter-spacing: 4px;
+    color: #4f4d4f;
+}
+/* PRICES */
+.prices_content{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.prices_header{
+    margin: 0 0 40px;
+}
+.prices_header h3{
+    font-size: 3rem;
+    font-weight: 300;
+    color: #e827a8;
+}
+.prices_services{
+    display: flex;
+    justify-content: space-around;
+}
+.service_item{
+    width: 180px;
+}
+.item1{
+background-image: url(../bookImages/bgSilver.jpg);
+}
+.item2{
+  background-image: url(../bookImages/bgGold.jpg); 
+}
+.item3{
+background-image: url(../bookImages/bgDiamond.jpg);
 }
