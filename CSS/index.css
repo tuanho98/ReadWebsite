@@ -187,6 +187,7 @@ background-color: #476af5;
     font-size: 2rem;
     margin: 15px 0;
     color: white;
+    letter-spacing: 3.5px;
 }
 .service_item p{
     margin-bottom: 15px;
@@ -209,3 +210,37 @@ background-color: #476af5;
    margin: 10px 0
    
 } 
+/* READER PICK */
+.pick h2{
+    text-align: center;
+    font-size: 2rem;
+    margin: 40px 0 30px;
+}
+
+.pick_content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.pick_item img{
+    width: 100%;
+    height: 102%;
+    display: block;
+}
+.pick_1{
+    grid-column: 1 / 3;
+}
+.pick_6{
+    grid-column: 3 / 5;
+}
+
+.pick_item{
+    position: relative;
+    overflow: hidden;
+}
+
+.pick_cap{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
