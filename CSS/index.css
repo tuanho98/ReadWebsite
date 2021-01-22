@@ -220,6 +220,8 @@ background-color: #476af5;
 .pick_content{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding: 20px;
 }
 .pick_item img{
     width: 100%;
@@ -236,11 +238,45 @@ background-color: #476af5;
 .pick_item{
     position: relative;
     overflow: hidden;
+    
 }
-
 .pick_cap{
     position: absolute;
     top: 0;
     left: 0;
+    text-align: right;
+    width: 100%;
+    height: 100%;
+    padding:30px 20px;
+    color: whitesmoke;
 }
+.pick_cap p{
+    position: absolute;
+    bottom: 20px;
+    right: 20px ;
+    font-size: 1.2rem;
+    font-weight: 300;
+    transform: translateY(0px);
+    transition: all 0.8s;
+    opacity: 0;
+}
+.pick_item:hover .pick_cap p{
+    transform:translateY(-30px);
+    transition: all 0.8s;
+    opacity: 1;
+}
+.pick_cap h3{
+    border-bottom: solid 5px white;
+    padding-bottom: 10px;
+    font-size: 2.2rem;
+    transform: translateY(-16px);
+    transition: all 0.8s;
+    opacity: 0;
+}
+.pick_item:hover .pick_cap h3{
+    transform:translateY(10px);
+    transition: all 0.8s;
+    opacity: 1;
+}
+
 
